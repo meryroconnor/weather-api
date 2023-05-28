@@ -1,4 +1,3 @@
-import requests
 import datetime as dt
 import pandas as pd
 
@@ -6,23 +5,8 @@ from psycopg2.extras import execute_values
 import json
 import psycopg2
 
-def request_data(date):
-    date = date.strftime("%Y-%m-%d")
 
-    key=get_api_key(".env/api_key.txt")
-    base_url = "http://api.weatherapi.com/v1/history.json"
-    url = f"{base_url}?key={key}&q=Buenos Aires&dt={date}"
-    response = requests.get(url)
-    data = response.json()
 
-    mintemp_c= data["forecast"]["forecastday"][0]["day"]["mintemp_c"]
-    maxtemp_c= data["forecast"]["forecastday"][0]["day"]["maxtemp_c"]
-    avghumidity= data["forecast"]["forecastday"][0]["day"]["avghumidity"]
-    totalprecip_mm= data["forecast"]["forecastday"][0]["day"]["totalprecip_mm"]
-
-    df = pd.DataFrame([{"date":date,"mintemp_c":mintemp_c,"maxtemp_c":maxtemp_c,
-                "avghumidity":avghumidity,"totalprecip_mm":totalprecip_mm}])
-    return df
 
 def load_to_redshift(conn, table_name, dataframe):
     dtypes= dataframe.dtypes
@@ -36,11 +20,14 @@ def load_to_redshift(conn, table_name, dataframe):
     table_schema = f"""
         CREATE TABLE IF NOT EXISTS {table_name} (
             {', '.join(column_defs)}
+            ,PRIMARY KEY (date)
         );
         """
+
     # Crear la tabla
     cur = conn.cursor()
     cur.execute(table_schema)
+
     # Generar los valores a insertar
     values = [tuple(x) for x in dataframe.to_numpy()]
     # Definir el INSERT
@@ -71,8 +58,4 @@ def conn_redshift(path_to_creds):
         print("Unable to connect to Redshift.")
         print(e)
 
-def get_api_key(path):
-    with open(path,'r') as f:
-        key_api= f.read()
-        key_api = json.loads(key_api)
-    return key_api["pwd"]
+
