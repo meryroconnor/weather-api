@@ -7,8 +7,9 @@ import psycopg2
 
 
 
-
 def load_to_redshift(conn, table_name, dataframe):
+    dataframe = dataframe.reset_index(drop=True)
+    
     dtypes= dataframe.dtypes
     cols= list(dtypes.index )
     tipos= list(dtypes.values)
@@ -20,7 +21,7 @@ def load_to_redshift(conn, table_name, dataframe):
     table_schema = f"""
         CREATE TABLE IF NOT EXISTS {table_name} (
             {', '.join(column_defs)}
-            ,PRIMARY KEY (date)
+            ,PRIMARY KEY (lat,long,date)
         );
         """
 
@@ -30,12 +31,40 @@ def load_to_redshift(conn, table_name, dataframe):
 
     # Generar los valores a insertar
     values = [tuple(x) for x in dataframe.to_numpy()]
+
     # Definir el INSERT
-    insert_sql = f"INSERT INTO {table_name} ({', '.join(cols)}) VALUES %s"
+    insert_sql = f""" 
+                INSERT INTO {table_name} ({', '.join(cols)}) VALUES %s
+                """
+
     # Execute the transaction to insert the data
     cur.execute("BEGIN")
-    execute_values(cur, insert_sql, values)
-    cur.execute("COMMIT")
+    try:
+        for i, row in dataframe.iterrows():   
+            cur.execute(f'''
+                SELECT COUNT(*) FROM {table_name}
+                WHERE "date" = %s AND lat = %s AND long = %s
+            ''', (
+                row['date'],
+                row['lat'],
+                row['long']
+            ))
+            count = cur.fetchone()[0]
+            if count != 0:
+                cur.execute(f'''
+                    DELETE FROM {table_name}
+                    WHERE "date" = %s AND lat = %s AND long = %s
+                    ''', (
+                        row['date'],
+                        row['lat'],
+                        row['long'])) 
+            execute_values(cur, insert_sql, [values[i]])
+        cur.execute("COMMIT")
+    except:
+        cur.execute("ROLLBACK")
+        raise Exception
+    #execute_values(cur, insert_sql, values)
+    
     print('Proceso terminado')
 
 
