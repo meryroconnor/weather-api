@@ -1,0 +1,39 @@
+[2023-06-19 20:02:16,455] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: dag_weather.extract_data manual__2023-06-19T20:02:14.865880+00:00 [queued]>
+[2023-06-19 20:02:16,471] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: dag_weather.extract_data manual__2023-06-19T20:02:14.865880+00:00 [queued]>
+[2023-06-19 20:02:16,471] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-06-19 20:02:16,471] {taskinstance.py:1377} INFO - Starting attempt 1 of 6
+[2023-06-19 20:02:16,471] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-06-19 20:02:16,494] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): extract_data> on 2023-06-19 20:02:14.865880+00:00
+[2023-06-19 20:02:16,500] {standard_task_runner.py:52} INFO - Started process 205 to run task
+[2023-06-19 20:02:16,504] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'dag_weather', 'extract_data', 'manual__2023-06-19T20:02:14.865880+00:00', '--job-id', '41', '--raw', '--subdir', 'DAGS_FOLDER/dag_weather.py', '--cfg-path', '/tmp/tmpmmupndic', '--error-file', '/tmp/tmp8tnhivp2']
+[2023-06-19 20:02:16,506] {standard_task_runner.py:80} INFO - Job 41: Subtask extract_data
+[2023-06-19 20:02:16,600] {task_command.py:371} INFO - Running <TaskInstance: dag_weather.extract_data manual__2023-06-19T20:02:14.865880+00:00 [running]> on host 005188ddce2c
+[2023-06-19 20:02:16,668] {logging_mixin.py:115} WARNING - /home/***/.local/lib/python3.7/site-packages/***/utils/context.py:202 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2023-06-19 20:02:16,730] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=MariaRO
+AIRFLOW_CTX_DAG_ID=dag_weather
+AIRFLOW_CTX_TASK_ID=extract_data
+AIRFLOW_CTX_EXECUTION_DATE=2023-06-19T20:02:14.865880+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-06-19T20:02:14.865880+00:00
+[2023-06-19 20:02:16,731] {logging_mixin.py:115} INFO - ***************
+[2023-06-19 20:02:16,731] {logging_mixin.py:115} INFO - 2023-06-19 20
+[2023-06-19 20:02:16,739] {taskinstance.py:1909} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/dag_weather.py", line 40, in extract_data
+    end = datetime.strptime(exec_date, '%Y-%m-%d').date()
+  File "/usr/local/lib/python3.7/_strptime.py", line 577, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "/usr/local/lib/python3.7/_strptime.py", line 362, in _strptime
+    data_string[found.end():])
+ValueError: unconverted data remains:  20
+[2023-06-19 20:02:16,752] {taskinstance.py:1420} INFO - Marking task as UP_FOR_RETRY. dag_id=dag_weather, task_id=extract_data, execution_date=20230619T200214, start_date=20230619T200216, end_date=20230619T200216
+[2023-06-19 20:02:16,770] {standard_task_runner.py:97} ERROR - Failed to execute job 41 for task extract_data (unconverted data remains:  20; 205)
+[2023-06-19 20:02:16,796] {local_task_job.py:156} INFO - Task exited with return code 1
+[2023-06-19 20:02:16,860] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
