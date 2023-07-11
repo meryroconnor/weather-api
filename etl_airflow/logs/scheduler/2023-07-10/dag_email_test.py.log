@@ -1,0 +1,707 @@
+[2023-07-10T22:02:27.839+0000] {processor.py:157} INFO - Started process (PID=31) to work on /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:02:27.841+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_email_test.py for tasks to queue
+[2023-07-10T22:02:27.843+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:02:27.842+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:02:27.862+0000] {logging_mixin.py:149} INFO - Pais Argentina (AR), Fecha fin mundo estimada: 2040
+Pais Brasil (BR), Fecha fin mundo estimada: 2080
+Pais Colombia (CO), Fecha fin mundo estimada: 2095
+Pais Chile (CL), Fecha fin mundo estimada: 2100
+Pais Paraguay (PY), Fecha fin mundo estimada: 2089
+Pais Uruguay (UR), Fecha fin mundo estimada: 2093
+Pais Venezuela (VE), Fecha fin mundo estimada: 2054
+Pais Peru (PE), Fecha fin mundo estimada: 2078
+Pais Ecuador (EC), Fecha fin mundo estimada: 2079
+Pais Bolivia (BO), Fecha fin mundo estimada: 2083
+Pais México (MX), Fecha fin mundo estimada: 2071
+[2023-07-10T22:02:27.899+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dag_smtp_email_fin_mundo']) retrieved from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:02:28.389+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:02:28.389+0000] {manager.py:504} INFO - Created Permission View: can read on DAG:dag_smtp_email_fin_mundo
+[2023-07-10T22:02:28.413+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:02:28.413+0000] {manager.py:504} INFO - Created Permission View: can delete on DAG:dag_smtp_email_fin_mundo
+[2023-07-10T22:02:28.431+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:02:28.431+0000] {manager.py:504} INFO - Created Permission View: can edit on DAG:dag_smtp_email_fin_mundo
+[2023-07-10T22:02:28.469+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:02:28.468+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-10T22:02:28.500+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:02:28.500+0000] {dag.py:2747} INFO - Creating ORM DAG for dag_smtp_email_fin_mundo
+[2023-07-10T22:02:28.528+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:02:28.528+0000] {dag.py:3490} INFO - Setting next_dagrun for dag_smtp_email_fin_mundo to 2022-09-07T00:00:00+00:00, run_after=2022-09-08T00:00:00+00:00
+[2023-07-10T22:02:28.592+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_email_test.py took 0.759 seconds
+[2023-07-10T22:02:59.149+0000] {processor.py:157} INFO - Started process (PID=102) to work on /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:02:59.155+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_email_test.py for tasks to queue
+[2023-07-10T22:02:59.156+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:02:59.156+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:02:59.159+0000] {logging_mixin.py:149} INFO - Pais Argentina (AR), Fecha fin mundo estimada: 2040
+Pais Brasil (BR), Fecha fin mundo estimada: 2080
+Pais Colombia (CO), Fecha fin mundo estimada: 2095
+Pais Chile (CL), Fecha fin mundo estimada: 2100
+Pais Paraguay (PY), Fecha fin mundo estimada: 2089
+Pais Uruguay (UR), Fecha fin mundo estimada: 2093
+Pais Venezuela (VE), Fecha fin mundo estimada: 2054
+Pais Peru (PE), Fecha fin mundo estimada: 2078
+Pais Ecuador (EC), Fecha fin mundo estimada: 2079
+Pais Bolivia (BO), Fecha fin mundo estimada: 2083
+Pais México (MX), Fecha fin mundo estimada: 2071
+[2023-07-10T22:02:59.168+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dag_smtp_email_fin_mundo']) retrieved from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:02:59.198+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:02:59.197+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-10T22:02:59.237+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:02:59.237+0000] {dag.py:3490} INFO - Setting next_dagrun for dag_smtp_email_fin_mundo to 2022-09-07T00:00:00+00:00, run_after=2022-09-08T00:00:00+00:00
+[2023-07-10T22:02:59.289+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_email_test.py took 0.145 seconds
+[2023-07-10T22:03:09.146+0000] {processor.py:157} INFO - Started process (PID=136) to work on /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:03:09.247+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_email_test.py for tasks to queue
+[2023-07-10T22:03:09.248+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:03:09.248+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:03:09.253+0000] {logging_mixin.py:149} INFO - Pais Argentina (AR), Fecha fin mundo estimada: 2040
+Pais Brasil (BR), Fecha fin mundo estimada: 2080
+Pais Colombia (CO), Fecha fin mundo estimada: 2095
+Pais Chile (CL), Fecha fin mundo estimada: 2100
+Pais Paraguay (PY), Fecha fin mundo estimada: 2089
+Pais Uruguay (UR), Fecha fin mundo estimada: 2093
+Pais Venezuela (VE), Fecha fin mundo estimada: 2054
+Pais Peru (PE), Fecha fin mundo estimada: 2078
+Pais Ecuador (EC), Fecha fin mundo estimada: 2079
+Pais Bolivia (BO), Fecha fin mundo estimada: 2083
+Pais México (MX), Fecha fin mundo estimada: 2071
+[2023-07-10T22:03:09.265+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dag_smtp_email_fin_mundo']) retrieved from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:03:09.297+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:03:09.297+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-10T22:03:09.337+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:03:09.337+0000] {dag.py:3490} INFO - Setting next_dagrun for dag_smtp_email_fin_mundo to 2022-09-07T00:00:00+00:00, run_after=2022-09-08T00:00:00+00:00
+[2023-07-10T22:03:09.384+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_email_test.py took 0.244 seconds
+[2023-07-10T22:03:39.576+0000] {processor.py:157} INFO - Started process (PID=205) to work on /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:03:39.577+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_email_test.py for tasks to queue
+[2023-07-10T22:03:39.578+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:03:39.578+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:03:39.580+0000] {logging_mixin.py:149} INFO - Pais Argentina (AR), Fecha fin mundo estimada: 2040
+Pais Brasil (BR), Fecha fin mundo estimada: 2080
+Pais Colombia (CO), Fecha fin mundo estimada: 2095
+Pais Chile (CL), Fecha fin mundo estimada: 2100
+Pais Paraguay (PY), Fecha fin mundo estimada: 2089
+Pais Uruguay (UR), Fecha fin mundo estimada: 2093
+Pais Venezuela (VE), Fecha fin mundo estimada: 2054
+Pais Peru (PE), Fecha fin mundo estimada: 2078
+Pais Ecuador (EC), Fecha fin mundo estimada: 2079
+Pais Bolivia (BO), Fecha fin mundo estimada: 2083
+Pais México (MX), Fecha fin mundo estimada: 2071
+[2023-07-10T22:03:39.588+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dag_smtp_email_fin_mundo']) retrieved from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:03:39.616+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:03:39.616+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-10T22:03:39.650+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:03:39.650+0000] {dag.py:3490} INFO - Setting next_dagrun for dag_smtp_email_fin_mundo to 2022-09-07T00:00:00+00:00, run_after=2022-09-08T00:00:00+00:00
+[2023-07-10T22:03:39.677+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_email_test.py took 0.105 seconds
+[2023-07-10T22:03:58.172+0000] {processor.py:157} INFO - Started process (PID=246) to work on /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:03:58.176+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_email_test.py for tasks to queue
+[2023-07-10T22:03:58.180+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:03:58.180+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:03:58.183+0000] {logging_mixin.py:149} INFO - Pais Argentina (AR), Fecha fin mundo estimada: 2040
+Pais Brasil (BR), Fecha fin mundo estimada: 2080
+Pais Colombia (CO), Fecha fin mundo estimada: 2095
+Pais Chile (CL), Fecha fin mundo estimada: 2100
+Pais Paraguay (PY), Fecha fin mundo estimada: 2089
+Pais Uruguay (UR), Fecha fin mundo estimada: 2093
+Pais Venezuela (VE), Fecha fin mundo estimada: 2054
+Pais Peru (PE), Fecha fin mundo estimada: 2078
+Pais Ecuador (EC), Fecha fin mundo estimada: 2079
+Pais Bolivia (BO), Fecha fin mundo estimada: 2083
+Pais México (MX), Fecha fin mundo estimada: 2071
+[2023-07-10T22:03:58.190+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dag_smtp_email_fin_mundo']) retrieved from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:03:58.223+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:03:58.223+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-10T22:03:58.266+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:03:58.266+0000] {dag.py:3490} INFO - Setting next_dagrun for dag_smtp_email_fin_mundo to 2022-09-07T00:00:00+00:00, run_after=2022-09-08T00:00:00+00:00
+[2023-07-10T22:03:58.314+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_email_test.py took 0.146 seconds
+[2023-07-10T22:04:28.921+0000] {processor.py:157} INFO - Started process (PID=318) to work on /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:04:28.922+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_email_test.py for tasks to queue
+[2023-07-10T22:04:28.923+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:04:28.923+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:04:28.925+0000] {logging_mixin.py:149} INFO - Pais Argentina (AR), Fecha fin mundo estimada: 2040
+Pais Brasil (BR), Fecha fin mundo estimada: 2080
+Pais Colombia (CO), Fecha fin mundo estimada: 2095
+Pais Chile (CL), Fecha fin mundo estimada: 2100
+Pais Paraguay (PY), Fecha fin mundo estimada: 2089
+Pais Uruguay (UR), Fecha fin mundo estimada: 2093
+Pais Venezuela (VE), Fecha fin mundo estimada: 2054
+Pais Peru (PE), Fecha fin mundo estimada: 2078
+Pais Ecuador (EC), Fecha fin mundo estimada: 2079
+Pais Bolivia (BO), Fecha fin mundo estimada: 2083
+Pais México (MX), Fecha fin mundo estimada: 2071
+[2023-07-10T22:04:28.935+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dag_smtp_email_fin_mundo']) retrieved from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:04:28.969+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:04:28.969+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-10T22:04:29.029+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:04:29.028+0000] {dag.py:3490} INFO - Setting next_dagrun for dag_smtp_email_fin_mundo to 2022-09-07T00:00:00+00:00, run_after=2022-09-08T00:00:00+00:00
+[2023-07-10T22:04:29.069+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_email_test.py took 0.153 seconds
+[2023-07-10T22:04:59.155+0000] {processor.py:157} INFO - Started process (PID=389) to work on /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:04:59.189+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_email_test.py for tasks to queue
+[2023-07-10T22:04:59.190+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:04:59.190+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:04:59.193+0000] {logging_mixin.py:149} INFO - Pais Argentina (AR), Fecha fin mundo estimada: 2040
+Pais Brasil (BR), Fecha fin mundo estimada: 2080
+Pais Colombia (CO), Fecha fin mundo estimada: 2095
+Pais Chile (CL), Fecha fin mundo estimada: 2100
+Pais Paraguay (PY), Fecha fin mundo estimada: 2089
+Pais Uruguay (UR), Fecha fin mundo estimada: 2093
+Pais Venezuela (VE), Fecha fin mundo estimada: 2054
+Pais Peru (PE), Fecha fin mundo estimada: 2078
+Pais Ecuador (EC), Fecha fin mundo estimada: 2079
+Pais Bolivia (BO), Fecha fin mundo estimada: 2083
+Pais México (MX), Fecha fin mundo estimada: 2071
+[2023-07-10T22:04:59.207+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dag_smtp_email_fin_mundo']) retrieved from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:04:59.249+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:04:59.249+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-10T22:04:59.296+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:04:59.296+0000] {dag.py:3490} INFO - Setting next_dagrun for dag_smtp_email_fin_mundo to 2022-09-07T00:00:00+00:00, run_after=2022-09-08T00:00:00+00:00
+[2023-07-10T22:04:59.368+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_email_test.py took 0.220 seconds
+[2023-07-10T22:05:29.509+0000] {processor.py:157} INFO - Started process (PID=464) to work on /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:05:29.512+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_email_test.py for tasks to queue
+[2023-07-10T22:05:29.514+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:05:29.514+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:05:29.518+0000] {logging_mixin.py:149} INFO - Pais Argentina (AR), Fecha fin mundo estimada: 2040
+Pais Brasil (BR), Fecha fin mundo estimada: 2080
+Pais Colombia (CO), Fecha fin mundo estimada: 2095
+Pais Chile (CL), Fecha fin mundo estimada: 2100
+Pais Paraguay (PY), Fecha fin mundo estimada: 2089
+Pais Uruguay (UR), Fecha fin mundo estimada: 2093
+Pais Venezuela (VE), Fecha fin mundo estimada: 2054
+Pais Peru (PE), Fecha fin mundo estimada: 2078
+Pais Ecuador (EC), Fecha fin mundo estimada: 2079
+Pais Bolivia (BO), Fecha fin mundo estimada: 2083
+Pais México (MX), Fecha fin mundo estimada: 2071
+[2023-07-10T22:05:29.538+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dag_smtp_email_fin_mundo']) retrieved from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:05:29.602+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:05:29.601+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-10T22:05:29.693+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:05:29.693+0000] {dag.py:3490} INFO - Setting next_dagrun for dag_smtp_email_fin_mundo to 2022-09-22T00:00:00+00:00, run_after=2022-09-23T00:00:00+00:00
+[2023-07-10T22:05:29.739+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_email_test.py took 0.242 seconds
+[2023-07-10T22:06:00.299+0000] {processor.py:157} INFO - Started process (PID=535) to work on /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:06:00.303+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_email_test.py for tasks to queue
+[2023-07-10T22:06:00.306+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:06:00.305+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:06:00.313+0000] {logging_mixin.py:149} INFO - Pais Argentina (AR), Fecha fin mundo estimada: 2040
+Pais Brasil (BR), Fecha fin mundo estimada: 2080
+Pais Colombia (CO), Fecha fin mundo estimada: 2095
+Pais Chile (CL), Fecha fin mundo estimada: 2100
+Pais Paraguay (PY), Fecha fin mundo estimada: 2089
+Pais Uruguay (UR), Fecha fin mundo estimada: 2093
+Pais Venezuela (VE), Fecha fin mundo estimada: 2054
+Pais Peru (PE), Fecha fin mundo estimada: 2078
+Pais Ecuador (EC), Fecha fin mundo estimada: 2079
+Pais Bolivia (BO), Fecha fin mundo estimada: 2083
+Pais México (MX), Fecha fin mundo estimada: 2071
+[2023-07-10T22:06:00.337+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dag_smtp_email_fin_mundo']) retrieved from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:06:00.401+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:06:00.401+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-10T22:06:00.510+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:06:00.510+0000] {dag.py:3490} INFO - Setting next_dagrun for dag_smtp_email_fin_mundo to 2022-10-11T00:00:00+00:00, run_after=2022-10-12T00:00:00+00:00
+[2023-07-10T22:06:00.605+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_email_test.py took 0.318 seconds
+[2023-07-10T22:06:31.103+0000] {processor.py:157} INFO - Started process (PID=606) to work on /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:06:31.126+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_email_test.py for tasks to queue
+[2023-07-10T22:06:31.139+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:06:31.139+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:06:31.145+0000] {logging_mixin.py:149} INFO - Pais Argentina (AR), Fecha fin mundo estimada: 2040
+Pais Brasil (BR), Fecha fin mundo estimada: 2080
+Pais Colombia (CO), Fecha fin mundo estimada: 2095
+Pais Chile (CL), Fecha fin mundo estimada: 2100
+Pais Paraguay (PY), Fecha fin mundo estimada: 2089
+Pais Uruguay (UR), Fecha fin mundo estimada: 2093
+Pais Venezuela (VE), Fecha fin mundo estimada: 2054
+Pais Peru (PE), Fecha fin mundo estimada: 2078
+Pais Ecuador (EC), Fecha fin mundo estimada: 2079
+Pais Bolivia (BO), Fecha fin mundo estimada: 2083
+Pais México (MX), Fecha fin mundo estimada: 2071
+[2023-07-10T22:06:31.198+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dag_smtp_email_fin_mundo']) retrieved from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:06:31.342+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:06:31.341+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-10T22:06:31.522+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:06:31.521+0000] {dag.py:3490} INFO - Setting next_dagrun for dag_smtp_email_fin_mundo to 2022-10-31T00:00:00+00:00, run_after=2022-11-01T00:00:00+00:00
+[2023-07-10T22:06:31.614+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_email_test.py took 0.531 seconds
+[2023-07-10T22:07:40.218+0000] {processor.py:157} INFO - Started process (PID=684) to work on /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:07:40.224+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_email_test.py for tasks to queue
+[2023-07-10T22:07:40.228+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:07:40.228+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:07:40.233+0000] {logging_mixin.py:149} INFO - Pais Argentina (AR), Fecha fin mundo estimada: 2040
+Pais Brasil (BR), Fecha fin mundo estimada: 2080
+Pais Colombia (CO), Fecha fin mundo estimada: 2095
+Pais Chile (CL), Fecha fin mundo estimada: 2100
+Pais Paraguay (PY), Fecha fin mundo estimada: 2089
+Pais Uruguay (UR), Fecha fin mundo estimada: 2093
+Pais Venezuela (VE), Fecha fin mundo estimada: 2054
+Pais Peru (PE), Fecha fin mundo estimada: 2078
+Pais Ecuador (EC), Fecha fin mundo estimada: 2079
+Pais Bolivia (BO), Fecha fin mundo estimada: 2083
+Pais México (MX), Fecha fin mundo estimada: 2071
+[2023-07-10T22:07:40.282+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dag_smtp_email_fin_mundo']) retrieved from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:07:40.389+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:07:40.389+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-10T22:07:40.501+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:07:40.501+0000] {dag.py:3490} INFO - Setting next_dagrun for dag_smtp_email_fin_mundo to 2022-11-12T00:00:00+00:00, run_after=2022-11-13T00:00:00+00:00
+[2023-07-10T22:07:40.600+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_email_test.py took 0.390 seconds
+[2023-07-10T22:08:10.797+0000] {processor.py:157} INFO - Started process (PID=745) to work on /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:08:10.801+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_email_test.py for tasks to queue
+[2023-07-10T22:08:10.805+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:08:10.804+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:08:10.826+0000] {logging_mixin.py:149} INFO - Pais Argentina (AR), Fecha fin mundo estimada: 2040
+Pais Brasil (BR), Fecha fin mundo estimada: 2080
+Pais Colombia (CO), Fecha fin mundo estimada: 2095
+Pais Chile (CL), Fecha fin mundo estimada: 2100
+Pais Paraguay (PY), Fecha fin mundo estimada: 2089
+Pais Uruguay (UR), Fecha fin mundo estimada: 2093
+Pais Venezuela (VE), Fecha fin mundo estimada: 2054
+Pais Peru (PE), Fecha fin mundo estimada: 2078
+Pais Ecuador (EC), Fecha fin mundo estimada: 2079
+Pais Bolivia (BO), Fecha fin mundo estimada: 2083
+Pais México (MX), Fecha fin mundo estimada: 2071
+[2023-07-10T22:08:10.882+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dag_smtp_email_fin_mundo']) retrieved from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:08:11.099+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:08:11.099+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-10T22:08:11.513+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:08:11.512+0000] {dag.py:3490} INFO - Setting next_dagrun for dag_smtp_email_fin_mundo to 2022-12-06T00:00:00+00:00, run_after=2022-12-07T00:00:00+00:00
+[2023-07-10T22:08:11.774+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_email_test.py took 0.996 seconds
+[2023-07-10T22:08:42.493+0000] {processor.py:157} INFO - Started process (PID=815) to work on /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:08:42.497+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_email_test.py for tasks to queue
+[2023-07-10T22:08:42.500+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:08:42.499+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:08:42.509+0000] {logging_mixin.py:149} INFO - Pais Argentina (AR), Fecha fin mundo estimada: 2040
+Pais Brasil (BR), Fecha fin mundo estimada: 2080
+Pais Colombia (CO), Fecha fin mundo estimada: 2095
+Pais Chile (CL), Fecha fin mundo estimada: 2100
+Pais Paraguay (PY), Fecha fin mundo estimada: 2089
+Pais Uruguay (UR), Fecha fin mundo estimada: 2093
+Pais Venezuela (VE), Fecha fin mundo estimada: 2054
+Pais Peru (PE), Fecha fin mundo estimada: 2078
+Pais Ecuador (EC), Fecha fin mundo estimada: 2079
+Pais Bolivia (BO), Fecha fin mundo estimada: 2083
+Pais México (MX), Fecha fin mundo estimada: 2071
+[2023-07-10T22:08:42.552+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dag_smtp_email_fin_mundo']) retrieved from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:08:42.690+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:08:42.688+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-10T22:08:42.788+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:08:42.788+0000] {dag.py:3490} INFO - Setting next_dagrun for dag_smtp_email_fin_mundo to 2022-12-18T00:00:00+00:00, run_after=2022-12-19T00:00:00+00:00
+[2023-07-10T22:08:42.849+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_email_test.py took 0.371 seconds
+[2023-07-10T22:09:13.723+0000] {processor.py:157} INFO - Started process (PID=886) to work on /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:09:13.734+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_email_test.py for tasks to queue
+[2023-07-10T22:09:13.737+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:09:13.736+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:09:13.747+0000] {logging_mixin.py:149} INFO - Pais Argentina (AR), Fecha fin mundo estimada: 2040
+Pais Brasil (BR), Fecha fin mundo estimada: 2080
+Pais Colombia (CO), Fecha fin mundo estimada: 2095
+Pais Chile (CL), Fecha fin mundo estimada: 2100
+Pais Paraguay (PY), Fecha fin mundo estimada: 2089
+Pais Uruguay (UR), Fecha fin mundo estimada: 2093
+Pais Venezuela (VE), Fecha fin mundo estimada: 2054
+Pais Peru (PE), Fecha fin mundo estimada: 2078
+Pais Ecuador (EC), Fecha fin mundo estimada: 2079
+Pais Bolivia (BO), Fecha fin mundo estimada: 2083
+Pais México (MX), Fecha fin mundo estimada: 2071
+[2023-07-10T22:09:13.780+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dag_smtp_email_fin_mundo']) retrieved from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:09:13.877+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:09:13.876+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-10T22:09:13.992+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:09:13.991+0000] {dag.py:3490} INFO - Setting next_dagrun for dag_smtp_email_fin_mundo to 2023-01-11T00:00:00+00:00, run_after=2023-01-12T00:00:00+00:00
+[2023-07-10T22:09:14.068+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_email_test.py took 0.357 seconds
+[2023-07-10T22:14:13.892+0000] {processor.py:157} INFO - Started process (PID=31) to work on /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:14:13.895+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_email_test.py for tasks to queue
+[2023-07-10T22:14:13.896+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:14:13.896+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:14:13.922+0000] {logging_mixin.py:149} INFO - Pais Argentina (AR), Fecha fin mundo estimada: 2040
+Pais Brasil (BR), Fecha fin mundo estimada: 2080
+Pais Colombia (CO), Fecha fin mundo estimada: 2095
+Pais Chile (CL), Fecha fin mundo estimada: 2100
+Pais Paraguay (PY), Fecha fin mundo estimada: 2089
+Pais Uruguay (UR), Fecha fin mundo estimada: 2093
+Pais Venezuela (VE), Fecha fin mundo estimada: 2054
+Pais Peru (PE), Fecha fin mundo estimada: 2078
+Pais Ecuador (EC), Fecha fin mundo estimada: 2079
+Pais Bolivia (BO), Fecha fin mundo estimada: 2083
+Pais México (MX), Fecha fin mundo estimada: 2071
+[2023-07-10T22:14:14.000+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dag_smtp_email_fin_mundo']) retrieved from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:14:14.614+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:14:14.613+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-10T22:14:14.679+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:14:14.678+0000] {dag.py:3490} INFO - Setting next_dagrun for dag_smtp_email_fin_mundo to 2023-01-16T00:00:00+00:00, run_after=2023-01-17T00:00:00+00:00
+[2023-07-10T22:14:14.730+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_email_test.py took 0.867 seconds
+[2023-07-10T22:14:45.318+0000] {processor.py:157} INFO - Started process (PID=106) to work on /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:14:45.320+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_email_test.py for tasks to queue
+[2023-07-10T22:14:45.323+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:14:45.322+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:14:45.330+0000] {logging_mixin.py:149} INFO - Pais Argentina (AR), Fecha fin mundo estimada: 2040
+Pais Brasil (BR), Fecha fin mundo estimada: 2080
+Pais Colombia (CO), Fecha fin mundo estimada: 2095
+Pais Chile (CL), Fecha fin mundo estimada: 2100
+Pais Paraguay (PY), Fecha fin mundo estimada: 2089
+Pais Uruguay (UR), Fecha fin mundo estimada: 2093
+Pais Venezuela (VE), Fecha fin mundo estimada: 2054
+Pais Peru (PE), Fecha fin mundo estimada: 2078
+Pais Ecuador (EC), Fecha fin mundo estimada: 2079
+Pais Bolivia (BO), Fecha fin mundo estimada: 2083
+Pais México (MX), Fecha fin mundo estimada: 2071
+[2023-07-10T22:14:45.355+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dag_smtp_email_fin_mundo']) retrieved from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:14:45.627+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:14:45.626+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-10T22:14:45.700+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:14:45.699+0000] {dag.py:3490} INFO - Setting next_dagrun for dag_smtp_email_fin_mundo to 2023-01-29T00:00:00+00:00, run_after=2023-01-30T00:00:00+00:00
+[2023-07-10T22:14:45.759+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_email_test.py took 0.454 seconds
+[2023-07-10T22:15:16.740+0000] {processor.py:157} INFO - Started process (PID=176) to work on /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:15:16.754+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_email_test.py for tasks to queue
+[2023-07-10T22:15:16.759+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:15:16.758+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:15:16.780+0000] {logging_mixin.py:149} INFO - Pais Argentina (AR), Fecha fin mundo estimada: 2040
+Pais Brasil (BR), Fecha fin mundo estimada: 2080
+Pais Colombia (CO), Fecha fin mundo estimada: 2095
+Pais Chile (CL), Fecha fin mundo estimada: 2100
+Pais Paraguay (PY), Fecha fin mundo estimada: 2089
+Pais Uruguay (UR), Fecha fin mundo estimada: 2093
+Pais Venezuela (VE), Fecha fin mundo estimada: 2054
+Pais Peru (PE), Fecha fin mundo estimada: 2078
+Pais Ecuador (EC), Fecha fin mundo estimada: 2079
+Pais Bolivia (BO), Fecha fin mundo estimada: 2083
+Pais México (MX), Fecha fin mundo estimada: 2071
+[2023-07-10T22:15:16.880+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dag_smtp_email_fin_mundo']) retrieved from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:15:17.257+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:15:17.257+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-10T22:15:19.576+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:15:19.576+0000] {dag.py:3490} INFO - Setting next_dagrun for dag_smtp_email_fin_mundo to 2023-02-17T00:00:00+00:00, run_after=2023-02-18T00:00:00+00:00
+[2023-07-10T22:15:19.842+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_email_test.py took 3.153 seconds
+[2023-07-10T22:15:50.255+0000] {processor.py:157} INFO - Started process (PID=240) to work on /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:15:50.259+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_email_test.py for tasks to queue
+[2023-07-10T22:15:50.263+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:15:50.262+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:15:50.268+0000] {logging_mixin.py:149} INFO - Pais Argentina (AR), Fecha fin mundo estimada: 2040
+Pais Brasil (BR), Fecha fin mundo estimada: 2080
+Pais Colombia (CO), Fecha fin mundo estimada: 2095
+Pais Chile (CL), Fecha fin mundo estimada: 2100
+Pais Paraguay (PY), Fecha fin mundo estimada: 2089
+Pais Uruguay (UR), Fecha fin mundo estimada: 2093
+Pais Venezuela (VE), Fecha fin mundo estimada: 2054
+Pais Peru (PE), Fecha fin mundo estimada: 2078
+Pais Ecuador (EC), Fecha fin mundo estimada: 2079
+Pais Bolivia (BO), Fecha fin mundo estimada: 2083
+Pais México (MX), Fecha fin mundo estimada: 2071
+[2023-07-10T22:15:50.293+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dag_smtp_email_fin_mundo']) retrieved from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:15:50.376+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:15:50.376+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-10T22:15:50.527+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:15:50.526+0000] {dag.py:3490} INFO - Setting next_dagrun for dag_smtp_email_fin_mundo to 2023-02-26T00:00:00+00:00, run_after=2023-02-27T00:00:00+00:00
+[2023-07-10T22:15:50.649+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_email_test.py took 0.411 seconds
+[2023-07-10T22:16:21.212+0000] {processor.py:157} INFO - Started process (PID=311) to work on /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:16:21.220+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_email_test.py for tasks to queue
+[2023-07-10T22:16:21.224+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:16:21.223+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:16:21.229+0000] {logging_mixin.py:149} INFO - Pais Argentina (AR), Fecha fin mundo estimada: 2040
+Pais Brasil (BR), Fecha fin mundo estimada: 2080
+Pais Colombia (CO), Fecha fin mundo estimada: 2095
+Pais Chile (CL), Fecha fin mundo estimada: 2100
+Pais Paraguay (PY), Fecha fin mundo estimada: 2089
+Pais Uruguay (UR), Fecha fin mundo estimada: 2093
+Pais Venezuela (VE), Fecha fin mundo estimada: 2054
+Pais Peru (PE), Fecha fin mundo estimada: 2078
+Pais Ecuador (EC), Fecha fin mundo estimada: 2079
+Pais Bolivia (BO), Fecha fin mundo estimada: 2083
+Pais México (MX), Fecha fin mundo estimada: 2071
+[2023-07-10T22:16:21.256+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dag_smtp_email_fin_mundo']) retrieved from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:16:21.440+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:16:21.440+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-10T22:16:21.749+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:16:21.748+0000] {dag.py:3490} INFO - Setting next_dagrun for dag_smtp_email_fin_mundo to 2023-03-20T00:00:00+00:00, run_after=2023-03-21T00:00:00+00:00
+[2023-07-10T22:16:21.935+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_email_test.py took 0.742 seconds
+[2023-07-10T22:16:52.956+0000] {processor.py:157} INFO - Started process (PID=382) to work on /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:16:52.962+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_email_test.py for tasks to queue
+[2023-07-10T22:16:52.966+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:16:52.965+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:16:52.973+0000] {logging_mixin.py:149} INFO - Pais Argentina (AR), Fecha fin mundo estimada: 2040
+Pais Brasil (BR), Fecha fin mundo estimada: 2080
+Pais Colombia (CO), Fecha fin mundo estimada: 2095
+Pais Chile (CL), Fecha fin mundo estimada: 2100
+Pais Paraguay (PY), Fecha fin mundo estimada: 2089
+Pais Uruguay (UR), Fecha fin mundo estimada: 2093
+Pais Venezuela (VE), Fecha fin mundo estimada: 2054
+Pais Peru (PE), Fecha fin mundo estimada: 2078
+Pais Ecuador (EC), Fecha fin mundo estimada: 2079
+Pais Bolivia (BO), Fecha fin mundo estimada: 2083
+Pais México (MX), Fecha fin mundo estimada: 2071
+[2023-07-10T22:16:52.996+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dag_smtp_email_fin_mundo']) retrieved from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:16:53.058+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:16:53.057+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-10T22:16:53.138+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:16:53.138+0000] {dag.py:3490} INFO - Setting next_dagrun for dag_smtp_email_fin_mundo to 2023-04-04T00:00:00+00:00, run_after=2023-04-05T00:00:00+00:00
+[2023-07-10T22:16:53.198+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_email_test.py took 0.258 seconds
+[2023-07-10T22:17:23.648+0000] {processor.py:157} INFO - Started process (PID=453) to work on /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:17:23.652+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_email_test.py for tasks to queue
+[2023-07-10T22:17:23.653+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:17:23.653+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:17:23.662+0000] {logging_mixin.py:149} INFO - Pais Argentina (AR), Fecha fin mundo estimada: 2040
+Pais Brasil (BR), Fecha fin mundo estimada: 2080
+Pais Colombia (CO), Fecha fin mundo estimada: 2095
+Pais Chile (CL), Fecha fin mundo estimada: 2100
+Pais Paraguay (PY), Fecha fin mundo estimada: 2089
+Pais Uruguay (UR), Fecha fin mundo estimada: 2093
+Pais Venezuela (VE), Fecha fin mundo estimada: 2054
+Pais Peru (PE), Fecha fin mundo estimada: 2078
+Pais Ecuador (EC), Fecha fin mundo estimada: 2079
+Pais Bolivia (BO), Fecha fin mundo estimada: 2083
+Pais México (MX), Fecha fin mundo estimada: 2071
+[2023-07-10T22:17:23.705+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dag_smtp_email_fin_mundo']) retrieved from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:17:23.839+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:17:23.838+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-10T22:17:23.984+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:17:23.984+0000] {dag.py:3490} INFO - Setting next_dagrun for dag_smtp_email_fin_mundo to 2023-04-29T00:00:00+00:00, run_after=2023-04-30T00:00:00+00:00
+[2023-07-10T22:17:24.135+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_email_test.py took 0.513 seconds
+[2023-07-10T22:17:54.615+0000] {processor.py:157} INFO - Started process (PID=524) to work on /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:17:54.621+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_email_test.py for tasks to queue
+[2023-07-10T22:17:54.624+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:17:54.623+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:17:54.629+0000] {logging_mixin.py:149} INFO - Pais Argentina (AR), Fecha fin mundo estimada: 2040
+Pais Brasil (BR), Fecha fin mundo estimada: 2080
+Pais Colombia (CO), Fecha fin mundo estimada: 2095
+Pais Chile (CL), Fecha fin mundo estimada: 2100
+Pais Paraguay (PY), Fecha fin mundo estimada: 2089
+Pais Uruguay (UR), Fecha fin mundo estimada: 2093
+Pais Venezuela (VE), Fecha fin mundo estimada: 2054
+Pais Peru (PE), Fecha fin mundo estimada: 2078
+Pais Ecuador (EC), Fecha fin mundo estimada: 2079
+Pais Bolivia (BO), Fecha fin mundo estimada: 2083
+Pais México (MX), Fecha fin mundo estimada: 2071
+[2023-07-10T22:17:54.657+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dag_smtp_email_fin_mundo']) retrieved from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:17:54.728+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:17:54.728+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-10T22:17:54.873+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:17:54.873+0000] {dag.py:3490} INFO - Setting next_dagrun for dag_smtp_email_fin_mundo to 2023-05-15T00:00:00+00:00, run_after=2023-05-16T00:00:00+00:00
+[2023-07-10T22:17:54.926+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_email_test.py took 0.323 seconds
+[2023-07-10T22:18:10.369+0000] {processor.py:157} INFO - Started process (PID=563) to work on /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:18:10.371+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_email_test.py for tasks to queue
+[2023-07-10T22:18:10.373+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:18:10.372+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:18:10.388+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dag_smtp_email_fin_mundo']) retrieved from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:18:10.765+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:18:10.765+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-10T22:18:11.021+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:18:11.020+0000] {dag.py:3490} INFO - Setting next_dagrun for dag_smtp_email_fin_mundo to 2023-05-26T00:00:00+00:00, run_after=2023-05-27T00:00:00+00:00
+[2023-07-10T22:18:11.133+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_email_test.py took 0.774 seconds
+[2023-07-10T22:20:31.926+0000] {processor.py:157} INFO - Started process (PID=31) to work on /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:20:31.930+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_email_test.py for tasks to queue
+[2023-07-10T22:20:31.931+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:20:31.931+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:20:32.003+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dag_smtp_email_fin_mundo']) retrieved from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:20:33.371+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:20:33.371+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-10T22:20:33.461+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:20:33.461+0000] {dag.py:3490} INFO - Setting next_dagrun for dag_smtp_email_fin_mundo to 2023-06-17T00:00:00+00:00, run_after=2023-06-18T00:00:00+00:00
+[2023-07-10T22:20:33.544+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_email_test.py took 1.629 seconds
+[2023-07-10T22:21:05.536+0000] {processor.py:157} INFO - Started process (PID=102) to work on /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:21:05.597+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_email_test.py for tasks to queue
+[2023-07-10T22:21:06.089+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:21:06.087+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:21:06.299+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dag_smtp_email_fin_mundo']) retrieved from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:21:06.781+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:21:06.778+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-10T22:21:07.548+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_email_test.py took 2.096 seconds
+[2023-07-10T22:21:38.324+0000] {processor.py:157} INFO - Started process (PID=172) to work on /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:21:38.327+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_email_test.py for tasks to queue
+[2023-07-10T22:21:38.331+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:21:38.330+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:21:38.351+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dag_smtp_email_fin_mundo']) retrieved from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:21:38.469+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:21:38.468+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-10T22:21:38.593+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:21:38.592+0000] {dag.py:3490} INFO - Setting next_dagrun for dag_smtp_email_fin_mundo to 2023-07-10T00:00:00+00:00, run_after=2023-07-11T00:00:00+00:00
+[2023-07-10T22:21:38.677+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_email_test.py took 0.369 seconds
+[2023-07-10T22:22:09.248+0000] {processor.py:157} INFO - Started process (PID=244) to work on /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:22:09.254+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_email_test.py for tasks to queue
+[2023-07-10T22:22:09.256+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:22:09.256+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:22:09.272+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dag_smtp_email_fin_mundo']) retrieved from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:22:09.326+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:22:09.326+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-10T22:22:09.395+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:22:09.394+0000] {dag.py:3490} INFO - Setting next_dagrun for dag_smtp_email_fin_mundo to 2023-07-10T00:00:00+00:00, run_after=2023-07-11T00:00:00+00:00
+[2023-07-10T22:22:09.439+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_email_test.py took 0.203 seconds
+[2023-07-10T22:22:40.279+0000] {processor.py:157} INFO - Started process (PID=316) to work on /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:22:40.286+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_email_test.py for tasks to queue
+[2023-07-10T22:22:40.290+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:22:40.289+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:22:40.320+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dag_smtp_email_fin_mundo']) retrieved from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:22:40.426+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:22:40.425+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-10T22:22:40.529+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:22:40.528+0000] {dag.py:3490} INFO - Setting next_dagrun for dag_smtp_email_fin_mundo to 2023-07-10T00:00:00+00:00, run_after=2023-07-11T00:00:00+00:00
+[2023-07-10T22:22:40.593+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_email_test.py took 0.331 seconds
+[2023-07-10T22:23:11.385+0000] {processor.py:157} INFO - Started process (PID=387) to work on /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:23:11.395+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_email_test.py for tasks to queue
+[2023-07-10T22:23:11.403+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:23:11.400+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:23:11.459+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dag_smtp_email_fin_mundo']) retrieved from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:23:11.603+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:23:11.602+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-10T22:23:11.719+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:23:11.718+0000] {dag.py:3490} INFO - Setting next_dagrun for dag_smtp_email_fin_mundo to 2023-07-10T00:00:00+00:00, run_after=2023-07-11T00:00:00+00:00
+[2023-07-10T22:23:11.769+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_email_test.py took 0.416 seconds
+[2023-07-10T22:23:42.743+0000] {processor.py:157} INFO - Started process (PID=458) to work on /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:23:42.755+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_email_test.py for tasks to queue
+[2023-07-10T22:23:42.757+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:23:42.756+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:23:42.807+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dag_smtp_email_fin_mundo']) retrieved from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:23:42.995+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:23:42.994+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-10T22:23:43.232+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:23:43.232+0000] {dag.py:3490} INFO - Setting next_dagrun for dag_smtp_email_fin_mundo to 2023-07-10T00:00:00+00:00, run_after=2023-07-11T00:00:00+00:00
+[2023-07-10T22:23:43.359+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_email_test.py took 0.634 seconds
+[2023-07-10T22:24:13.532+0000] {processor.py:157} INFO - Started process (PID=537) to work on /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:24:13.536+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_email_test.py for tasks to queue
+[2023-07-10T22:24:13.538+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:24:13.537+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:24:13.558+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dag_smtp_email_fin_mundo']) retrieved from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:24:13.643+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:24:13.643+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-10T22:24:13.725+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:24:13.725+0000] {dag.py:3490} INFO - Setting next_dagrun for dag_smtp_email_fin_mundo to 2023-07-10T00:00:00+00:00, run_after=2023-07-11T00:00:00+00:00
+[2023-07-10T22:24:13.797+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_email_test.py took 0.275 seconds
+[2023-07-10T22:24:44.560+0000] {processor.py:157} INFO - Started process (PID=608) to work on /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:24:44.566+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_email_test.py for tasks to queue
+[2023-07-10T22:24:44.571+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:24:44.570+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:24:44.607+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dag_smtp_email_fin_mundo']) retrieved from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:24:44.664+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:24:44.663+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-10T22:24:44.725+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:24:44.725+0000] {dag.py:3490} INFO - Setting next_dagrun for dag_smtp_email_fin_mundo to 2023-07-10T00:00:00+00:00, run_after=2023-07-11T00:00:00+00:00
+[2023-07-10T22:24:44.776+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_email_test.py took 0.245 seconds
+[2023-07-10T22:25:14.878+0000] {processor.py:157} INFO - Started process (PID=679) to work on /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:25:14.884+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_email_test.py for tasks to queue
+[2023-07-10T22:25:14.887+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:25:14.886+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:25:14.914+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dag_smtp_email_fin_mundo']) retrieved from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:25:14.985+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:25:14.985+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-10T22:25:15.050+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:25:15.050+0000] {dag.py:3490} INFO - Setting next_dagrun for dag_smtp_email_fin_mundo to 2023-07-10T00:00:00+00:00, run_after=2023-07-11T00:00:00+00:00
+[2023-07-10T22:25:15.096+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_email_test.py took 0.232 seconds
+[2023-07-10T22:25:45.433+0000] {processor.py:157} INFO - Started process (PID=750) to work on /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:25:45.435+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_email_test.py for tasks to queue
+[2023-07-10T22:25:45.436+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:25:45.436+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:25:45.449+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dag_smtp_email_fin_mundo']) retrieved from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:25:45.502+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:25:45.501+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-10T22:25:45.564+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:25:45.564+0000] {dag.py:3490} INFO - Setting next_dagrun for dag_smtp_email_fin_mundo to 2023-07-10T00:00:00+00:00, run_after=2023-07-11T00:00:00+00:00
+[2023-07-10T22:25:45.606+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_email_test.py took 0.180 seconds
+[2023-07-10T22:26:15.731+0000] {processor.py:157} INFO - Started process (PID=821) to work on /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:26:15.750+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_email_test.py for tasks to queue
+[2023-07-10T22:26:15.752+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:26:15.751+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:26:15.765+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dag_smtp_email_fin_mundo']) retrieved from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:26:15.820+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:26:15.820+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-10T22:26:15.880+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:26:15.880+0000] {dag.py:3490} INFO - Setting next_dagrun for dag_smtp_email_fin_mundo to 2023-07-10T00:00:00+00:00, run_after=2023-07-11T00:00:00+00:00
+[2023-07-10T22:26:15.972+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_email_test.py took 0.249 seconds
+[2023-07-10T22:26:46.558+0000] {processor.py:157} INFO - Started process (PID=892) to work on /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:26:46.563+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_email_test.py for tasks to queue
+[2023-07-10T22:26:46.567+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:26:46.566+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:26:46.606+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dag_smtp_email_fin_mundo']) retrieved from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:26:46.678+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:26:46.678+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-10T22:26:46.739+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:26:46.739+0000] {dag.py:3490} INFO - Setting next_dagrun for dag_smtp_email_fin_mundo to 2023-07-10T00:00:00+00:00, run_after=2023-07-11T00:00:00+00:00
+[2023-07-10T22:26:46.783+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_email_test.py took 0.250 seconds
+[2023-07-10T22:27:16.872+0000] {processor.py:157} INFO - Started process (PID=963) to work on /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:27:16.879+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_email_test.py for tasks to queue
+[2023-07-10T22:27:16.881+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:27:16.881+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:27:16.897+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dag_smtp_email_fin_mundo']) retrieved from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:27:16.959+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:27:16.958+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-10T22:27:17.040+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:27:17.039+0000] {dag.py:3490} INFO - Setting next_dagrun for dag_smtp_email_fin_mundo to 2023-07-10T00:00:00+00:00, run_after=2023-07-11T00:00:00+00:00
+[2023-07-10T22:27:17.096+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_email_test.py took 0.235 seconds
+[2023-07-10T22:27:47.205+0000] {processor.py:157} INFO - Started process (PID=1034) to work on /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:27:47.207+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_email_test.py for tasks to queue
+[2023-07-10T22:27:47.209+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:27:47.209+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:27:47.223+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dag_smtp_email_fin_mundo']) retrieved from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:27:47.285+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:27:47.284+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-10T22:27:47.361+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:27:47.361+0000] {dag.py:3490} INFO - Setting next_dagrun for dag_smtp_email_fin_mundo to 2023-07-10T00:00:00+00:00, run_after=2023-07-11T00:00:00+00:00
+[2023-07-10T22:27:47.417+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_email_test.py took 0.221 seconds
+[2023-07-10T22:28:17.889+0000] {processor.py:157} INFO - Started process (PID=1105) to work on /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:28:17.891+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_email_test.py for tasks to queue
+[2023-07-10T22:28:17.893+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:28:17.893+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:28:17.904+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dag_smtp_email_fin_mundo']) retrieved from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:28:17.956+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:28:17.956+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-10T22:28:18.011+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:28:18.010+0000] {dag.py:3490} INFO - Setting next_dagrun for dag_smtp_email_fin_mundo to 2023-07-10T00:00:00+00:00, run_after=2023-07-11T00:00:00+00:00
+[2023-07-10T22:28:18.055+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_email_test.py took 0.172 seconds
+[2023-07-10T22:28:48.236+0000] {processor.py:157} INFO - Started process (PID=1167) to work on /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:28:48.238+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_email_test.py for tasks to queue
+[2023-07-10T22:28:48.239+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:28:48.239+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:28:48.254+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dag_smtp_email_fin_mundo']) retrieved from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:28:48.367+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:28:48.367+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-10T22:28:48.483+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:28:48.483+0000] {dag.py:3490} INFO - Setting next_dagrun for dag_smtp_email_fin_mundo to 2023-07-10T00:00:00+00:00, run_after=2023-07-11T00:00:00+00:00
+[2023-07-10T22:28:48.536+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_email_test.py took 0.308 seconds
+[2023-07-10T22:29:19.097+0000] {processor.py:157} INFO - Started process (PID=1238) to work on /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:29:19.103+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_email_test.py for tasks to queue
+[2023-07-10T22:29:19.105+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:29:19.105+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:29:19.124+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dag_smtp_email_fin_mundo']) retrieved from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:29:19.179+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:29:19.179+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-10T22:29:19.254+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:29:19.254+0000] {dag.py:3490} INFO - Setting next_dagrun for dag_smtp_email_fin_mundo to 2023-07-10T00:00:00+00:00, run_after=2023-07-11T00:00:00+00:00
+[2023-07-10T22:29:19.321+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_email_test.py took 0.233 seconds
+[2023-07-10T22:29:50.048+0000] {processor.py:157} INFO - Started process (PID=1310) to work on /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:29:50.064+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_email_test.py for tasks to queue
+[2023-07-10T22:29:50.066+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:29:50.065+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:29:50.082+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dag_smtp_email_fin_mundo']) retrieved from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:29:50.142+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:29:50.142+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-10T22:29:50.211+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:29:50.210+0000] {dag.py:3490} INFO - Setting next_dagrun for dag_smtp_email_fin_mundo to 2023-07-10T00:00:00+00:00, run_after=2023-07-11T00:00:00+00:00
+[2023-07-10T22:29:50.272+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_email_test.py took 0.231 seconds
+[2023-07-10T22:30:20.983+0000] {processor.py:157} INFO - Started process (PID=1381) to work on /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:30:20.997+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_email_test.py for tasks to queue
+[2023-07-10T22:30:21.000+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:30:20.999+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:30:21.025+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dag_smtp_email_fin_mundo']) retrieved from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:30:21.124+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:30:21.123+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-10T22:30:21.246+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:30:21.246+0000] {dag.py:3490} INFO - Setting next_dagrun for dag_smtp_email_fin_mundo to 2023-07-10T00:00:00+00:00, run_after=2023-07-11T00:00:00+00:00
+[2023-07-10T22:30:21.320+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_email_test.py took 0.350 seconds
+[2023-07-10T22:30:51.888+0000] {processor.py:157} INFO - Started process (PID=1452) to work on /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:30:51.896+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_email_test.py for tasks to queue
+[2023-07-10T22:30:51.899+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:30:51.898+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:30:51.925+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dag_smtp_email_fin_mundo']) retrieved from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:30:52.041+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:30:52.040+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-10T22:30:52.185+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:30:52.185+0000] {dag.py:3490} INFO - Setting next_dagrun for dag_smtp_email_fin_mundo to 2023-07-10T00:00:00+00:00, run_after=2023-07-11T00:00:00+00:00
+[2023-07-10T22:30:52.286+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_email_test.py took 0.417 seconds
+[2023-07-10T22:31:12.461+0000] {processor.py:157} INFO - Started process (PID=1489) to work on /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:31:12.463+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_email_test.py for tasks to queue
+[2023-07-10T22:31:12.466+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:31:12.465+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:31:12.490+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dag_smtp_email_fin_mundo']) retrieved from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:31:12.620+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:31:12.619+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-10T22:31:12.778+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:31:12.778+0000] {dag.py:3490} INFO - Setting next_dagrun for dag_smtp_email_fin_mundo to 2023-07-10T00:00:00+00:00, run_after=2023-07-11T00:00:00+00:00
+[2023-07-10T22:31:12.888+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_email_test.py took 0.439 seconds
+[2023-07-10T22:31:43.044+0000] {processor.py:157} INFO - Started process (PID=1552) to work on /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:31:43.047+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_email_test.py for tasks to queue
+[2023-07-10T22:31:43.050+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:31:43.049+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:31:43.071+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dag_smtp_email_fin_mundo']) retrieved from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:31:43.153+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:31:43.153+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-10T22:31:43.223+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:31:43.223+0000] {dag.py:3490} INFO - Setting next_dagrun for dag_smtp_email_fin_mundo to 2023-07-10T00:00:00+00:00, run_after=2023-07-11T00:00:00+00:00
+[2023-07-10T22:31:43.272+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_email_test.py took 0.241 seconds
+[2023-07-10T22:32:13.830+0000] {processor.py:157} INFO - Started process (PID=1615) to work on /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:32:13.833+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_email_test.py for tasks to queue
+[2023-07-10T22:32:13.835+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:32:13.835+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:32:13.854+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dag_smtp_email_fin_mundo']) retrieved from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:32:13.918+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:32:13.917+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-10T22:32:13.980+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:32:13.980+0000] {dag.py:3490} INFO - Setting next_dagrun for dag_smtp_email_fin_mundo to 2023-07-10T00:00:00+00:00, run_after=2023-07-11T00:00:00+00:00
+[2023-07-10T22:32:14.029+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_email_test.py took 0.208 seconds
+[2023-07-10T22:32:44.522+0000] {processor.py:157} INFO - Started process (PID=1678) to work on /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:32:44.524+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_email_test.py for tasks to queue
+[2023-07-10T22:32:44.527+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:32:44.526+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:32:44.546+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dag_smtp_email_fin_mundo']) retrieved from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:32:44.624+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:32:44.624+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-10T22:32:44.714+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:32:44.714+0000] {dag.py:3490} INFO - Setting next_dagrun for dag_smtp_email_fin_mundo to 2023-07-10T00:00:00+00:00, run_after=2023-07-11T00:00:00+00:00
+[2023-07-10T22:32:44.773+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_email_test.py took 0.261 seconds
+[2023-07-10T22:33:15.197+0000] {processor.py:157} INFO - Started process (PID=1741) to work on /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:33:15.200+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_email_test.py for tasks to queue
+[2023-07-10T22:33:15.202+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:33:15.202+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:33:15.222+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dag_smtp_email_fin_mundo']) retrieved from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:33:15.300+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:33:15.300+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-10T22:33:15.392+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:33:15.392+0000] {dag.py:3490} INFO - Setting next_dagrun for dag_smtp_email_fin_mundo to 2023-07-10T00:00:00+00:00, run_after=2023-07-11T00:00:00+00:00
+[2023-07-10T22:33:15.460+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_email_test.py took 0.274 seconds
+[2023-07-10T22:33:45.746+0000] {processor.py:157} INFO - Started process (PID=1804) to work on /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:33:45.747+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_email_test.py for tasks to queue
+[2023-07-10T22:33:45.749+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:33:45.749+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:33:45.766+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dag_smtp_email_fin_mundo']) retrieved from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:33:45.838+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:33:45.837+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-10T22:33:45.927+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:33:45.926+0000] {dag.py:3490} INFO - Setting next_dagrun for dag_smtp_email_fin_mundo to 2023-07-10T00:00:00+00:00, run_after=2023-07-11T00:00:00+00:00
+[2023-07-10T22:33:45.983+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_email_test.py took 0.246 seconds
+[2023-07-10T22:34:16.460+0000] {processor.py:157} INFO - Started process (PID=1867) to work on /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:34:16.465+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_email_test.py for tasks to queue
+[2023-07-10T22:34:16.476+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:34:16.475+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:34:16.512+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dag_smtp_email_fin_mundo']) retrieved from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:34:16.679+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:34:16.678+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-10T22:34:16.832+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:34:16.831+0000] {dag.py:3490} INFO - Setting next_dagrun for dag_smtp_email_fin_mundo to 2023-07-10T00:00:00+00:00, run_after=2023-07-11T00:00:00+00:00
+[2023-07-10T22:34:16.935+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_email_test.py took 0.505 seconds
+[2023-07-10T22:34:47.090+0000] {processor.py:157} INFO - Started process (PID=1930) to work on /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:34:47.092+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_email_test.py for tasks to queue
+[2023-07-10T22:34:47.093+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:34:47.093+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:34:47.107+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dag_smtp_email_fin_mundo']) retrieved from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:34:47.170+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:34:47.169+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-10T22:34:47.236+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:34:47.235+0000] {dag.py:3490} INFO - Setting next_dagrun for dag_smtp_email_fin_mundo to 2023-07-10T00:00:00+00:00, run_after=2023-07-11T00:00:00+00:00
+[2023-07-10T22:34:47.288+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_email_test.py took 0.206 seconds
+[2023-07-10T22:35:17.846+0000] {processor.py:157} INFO - Started process (PID=1990) to work on /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:35:17.852+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_email_test.py for tasks to queue
+[2023-07-10T22:35:17.854+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:35:17.854+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:35:17.876+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dag_smtp_email_fin_mundo']) retrieved from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:35:17.964+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:35:17.963+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-10T22:35:18.047+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:35:18.047+0000] {dag.py:3490} INFO - Setting next_dagrun for dag_smtp_email_fin_mundo to 2023-07-10T00:00:00+00:00, run_after=2023-07-11T00:00:00+00:00
+[2023-07-10T22:35:18.099+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_email_test.py took 0.264 seconds
+[2023-07-10T22:35:48.222+0000] {processor.py:157} INFO - Started process (PID=2053) to work on /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:35:48.224+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_email_test.py for tasks to queue
+[2023-07-10T22:35:48.227+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:35:48.227+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:35:48.251+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dag_smtp_email_fin_mundo']) retrieved from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:35:48.356+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:35:48.356+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-10T22:35:48.437+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:35:48.436+0000] {dag.py:3490} INFO - Setting next_dagrun for dag_smtp_email_fin_mundo to 2023-07-10T00:00:00+00:00, run_after=2023-07-11T00:00:00+00:00
+[2023-07-10T22:35:48.491+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_email_test.py took 0.284 seconds
+[2023-07-10T22:36:18.660+0000] {processor.py:157} INFO - Started process (PID=2116) to work on /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:36:18.666+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_email_test.py for tasks to queue
+[2023-07-10T22:36:18.669+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:36:18.668+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:36:18.719+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dag_smtp_email_fin_mundo']) retrieved from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:36:18.891+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:36:18.890+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-10T22:36:18.976+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:36:18.975+0000] {dag.py:3490} INFO - Setting next_dagrun for dag_smtp_email_fin_mundo to 2023-07-10T00:00:00+00:00, run_after=2023-07-11T00:00:00+00:00
+[2023-07-10T22:36:19.034+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_email_test.py took 0.420 seconds
+[2023-07-10T22:36:49.893+0000] {processor.py:157} INFO - Started process (PID=2179) to work on /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:36:49.898+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_email_test.py for tasks to queue
+[2023-07-10T22:36:49.900+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:36:49.900+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:36:49.920+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dag_smtp_email_fin_mundo']) retrieved from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:36:49.997+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:36:49.996+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-10T22:36:50.116+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:36:50.116+0000] {dag.py:3490} INFO - Setting next_dagrun for dag_smtp_email_fin_mundo to 2023-07-10T00:00:00+00:00, run_after=2023-07-11T00:00:00+00:00
+[2023-07-10T22:36:50.188+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_email_test.py took 0.310 seconds
+[2023-07-10T22:37:20.308+0000] {processor.py:157} INFO - Started process (PID=2251) to work on /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:37:20.314+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_email_test.py for tasks to queue
+[2023-07-10T22:37:20.316+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:37:20.316+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:37:20.342+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dag_smtp_email_fin_mundo']) retrieved from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:37:20.432+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:37:20.431+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-10T22:37:20.516+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:37:20.516+0000] {dag.py:3490} INFO - Setting next_dagrun for dag_smtp_email_fin_mundo to 2023-07-10T00:00:00+00:00, run_after=2023-07-11T00:00:00+00:00
+[2023-07-10T22:37:20.575+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_email_test.py took 0.283 seconds
+[2023-07-10T22:37:54.474+0000] {processor.py:157} INFO - Started process (PID=2306) to work on /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:37:54.507+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_email_test.py for tasks to queue
+[2023-07-10T22:37:54.539+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:37:54.536+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:37:54.800+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dag_smtp_email_fin_mundo']) retrieved from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:37:55.686+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:37:55.684+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-10T22:37:56.685+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:37:56.684+0000] {dag.py:3490} INFO - Setting next_dagrun for dag_smtp_email_fin_mundo to 2023-07-10T00:00:00+00:00, run_after=2023-07-11T00:00:00+00:00
+[2023-07-10T22:37:57.440+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_email_test.py took 3.112 seconds
+[2023-07-10T22:38:59.161+0000] {processor.py:157} INFO - Started process (PID=2385) to work on /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:38:59.169+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_email_test.py for tasks to queue
+[2023-07-10T22:38:59.178+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:38:59.176+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:38:59.303+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dag_smtp_email_fin_mundo']) retrieved from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:38:59.548+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:38:59.547+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-10T22:38:59.883+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:38:59.882+0000] {dag.py:3490} INFO - Setting next_dagrun for dag_smtp_email_fin_mundo to 2023-07-10T00:00:00+00:00, run_after=2023-07-11T00:00:00+00:00
+[2023-07-10T22:39:00.198+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_email_test.py took 1.063 seconds
+[2023-07-10T22:39:47.953+0000] {processor.py:157} INFO - Started process (PID=2449) to work on /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:39:47.965+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_email_test.py for tasks to queue
+[2023-07-10T22:39:47.972+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:39:47.970+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:39:48.111+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dag_smtp_email_fin_mundo']) retrieved from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:39:48.441+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:39:48.433+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-10T22:39:48.965+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:39:48.963+0000] {dag.py:3490} INFO - Setting next_dagrun for dag_smtp_email_fin_mundo to 2023-07-10T00:00:00+00:00, run_after=2023-07-11T00:00:00+00:00
+[2023-07-10T22:39:49.285+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_email_test.py took 1.365 seconds
+[2023-07-10T22:40:31.078+0000] {processor.py:157} INFO - Started process (PID=2516) to work on /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:40:31.112+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_email_test.py for tasks to queue
+[2023-07-10T22:40:31.127+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:40:31.122+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:40:31.230+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dag_smtp_email_fin_mundo']) retrieved from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:40:31.857+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:40:31.855+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-10T22:40:32.510+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:40:32.510+0000] {dag.py:3490} INFO - Setting next_dagrun for dag_smtp_email_fin_mundo to 2023-07-10T00:00:00+00:00, run_after=2023-07-11T00:00:00+00:00
+[2023-07-10T22:40:32.805+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_email_test.py took 1.839 seconds
+[2023-07-10T22:41:09.602+0000] {processor.py:157} INFO - Started process (PID=2585) to work on /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:41:09.611+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_email_test.py for tasks to queue
+[2023-07-10T22:41:09.622+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:41:09.618+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:41:09.710+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dag_smtp_email_fin_mundo']) retrieved from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:41:10.004+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:41:10.003+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-10T22:41:10.258+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:41:10.254+0000] {dag.py:3490} INFO - Setting next_dagrun for dag_smtp_email_fin_mundo to 2023-07-10T00:00:00+00:00, run_after=2023-07-11T00:00:00+00:00
+[2023-07-10T22:41:10.431+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_email_test.py took 0.855 seconds
+[2023-07-10T22:41:53.294+0000] {processor.py:157} INFO - Started process (PID=2654) to work on /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:41:53.316+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_email_test.py for tasks to queue
+[2023-07-10T22:41:53.327+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:41:53.325+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:41:53.445+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dag_smtp_email_fin_mundo']) retrieved from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:41:53.700+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:41:53.698+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-10T22:41:54.204+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:41:54.202+0000] {dag.py:3490} INFO - Setting next_dagrun for dag_smtp_email_fin_mundo to 2023-07-10T00:00:00+00:00, run_after=2023-07-11T00:00:00+00:00
+[2023-07-10T22:41:54.432+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_email_test.py took 1.173 seconds
+[2023-07-10T22:43:07.818+0000] {processor.py:157} INFO - Started process (PID=2738) to work on /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:43:07.861+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dag_email_test.py for tasks to queue
+[2023-07-10T22:43:07.891+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:43:07.890+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:43:08.198+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dag_smtp_email_fin_mundo']) retrieved from /opt/airflow/dags/dag_email_test.py
+[2023-07-10T22:43:08.954+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:43:08.951+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-10T22:43:09.762+0000] {logging_mixin.py:149} INFO - [2023-07-10T22:43:09.761+0000] {dag.py:3490} INFO - Setting next_dagrun for dag_smtp_email_fin_mundo to 2023-07-10T00:00:00+00:00, run_after=2023-07-11T00:00:00+00:00
+[2023-07-10T22:43:10.548+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dag_email_test.py took 2.840 seconds
+[2023-07-10 22:51:46,969] {processor.py:163} INFO - Started process (PID=39) to work on /opt/airflow/dags/dag_email_test.py
+[2023-07-10 22:51:46,979] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_email_test.py for tasks to queue
+[2023-07-10 22:51:46,981] {logging_mixin.py:109} INFO - [2023-07-10 22:51:46,980] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_email_test.py
+[2023-07-10 22:51:47,067] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_fin_mundo']) retrieved from /opt/airflow/dags/dag_email_test.py
+[2023-07-10 22:51:48,821] {logging_mixin.py:109} INFO - [2023-07-10 22:51:48,821] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-07-10 22:51:48,858] {logging_mixin.py:109} INFO - [2023-07-10 22:51:48,858] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_fin_mundo to 2023-07-10T00:00:00+00:00
+[2023-07-10 22:51:48,916] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_email_test.py took 1.967 seconds
+[2023-07-10 22:52:19,678] {processor.py:163} INFO - Started process (PID=124) to work on /opt/airflow/dags/dag_email_test.py
+[2023-07-10 22:52:19,683] {processor.py:642} INFO - Processing file /opt/airflow/dags/dag_email_test.py for tasks to queue
+[2023-07-10 22:52:19,684] {logging_mixin.py:109} INFO - [2023-07-10 22:52:19,684] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dag_email_test.py
+[2023-07-10 22:52:19,718] {processor.py:654} INFO - DAG(s) dict_keys(['dag_smtp_email_fin_mundo']) retrieved from /opt/airflow/dags/dag_email_test.py
+[2023-07-10 22:52:19,729] {logging_mixin.py:109} INFO - [2023-07-10 22:52:19,729] {dag.py:2396} INFO - Sync 1 DAGs
+[2023-07-10 22:52:19,747] {logging_mixin.py:109} INFO - [2023-07-10 22:52:19,747] {dag.py:2935} INFO - Setting next_dagrun for dag_smtp_email_fin_mundo to 2023-07-10T00:00:00+00:00
+[2023-07-10 22:52:19,759] {processor.py:171} INFO - Processing /opt/airflow/dags/dag_email_test.py took 0.087 seconds

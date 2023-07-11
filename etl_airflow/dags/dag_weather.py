@@ -2,10 +2,17 @@ from datetime import timedelta, datetime
 from weather_pckg.api_utils import request_forecast
 from weather_pckg.redshift_utils import load_to_redshift,conn_redshift
 from weather_pckg.transform import calculate_humidity_ratio,calculate_mean_avg_humidity
+from weather_pckg.smtp_utils import get_login
 
 import pandas as pd
 import numpy as np
 import os
+
+# Envio de mail
+import smtplib
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
+
 
 #Airflow
 from airflow import DAG
@@ -72,6 +79,40 @@ def upload_data(exec_date):
     conn_db_coder = conn_redshift(dag_path+"/.creds/pwd_coder.txt")
     load_to_redshift(conn=conn_db_coder, table_name="forecast", dataframe=df)
 
+def send_email(exec_date):
+    # Email configuration
+    sender_email = 'meryroconnor@gmail.com'
+    receiver_email = 'meryroconnor@hotmail.com'
+
+    smtp_port, smtp_server, smtp_username, smtp_password = get_login(dag_path+"/.creds/smtp_pwd.txt")
+    #smtp_server = 'smtp.gmail.com'
+    #smtp_port = 587
+    #smtp_username = 'meryroconnor@gmail.com'
+    #smtp_password = 'qjlxghturbxvvcsp'
+
+    # Create message object
+    message = MIMEMultipart()
+    message['From'] = sender_email
+    message['To'] = receiver_email
+    message['Subject'] = f'Weather Data for {exec_date}'
+
+    # Load weather data
+    df = pd.read_csv(dag_path + f'/processed_data/{exec_date}.csv')
+
+    # Create HTML content for the email body
+    html_content = '<html><body>'
+    html_content += f'<h2>Weather Data for {exec_date}</h2>'
+    html_content += df.to_html()
+    html_content += '</body></html>'
+
+    # Attach the HTML content to the email
+    message.attach(MIMEText(html_content, 'html'))
+
+    # Send the email
+    with smtplib.SMTP(smtp_server, smtp_port) as server:
+        server.starttls()
+        server.login(smtp_username, smtp_password)
+        server.sendmail(sender_email, receiver_email, message.as_string())
 
 
 # Tareas
@@ -99,6 +140,13 @@ task_3 = PythonOperator(
     dag=BC_dag,
 )
 
+task_4 = PythonOperator(
+    task_id='send_email',
+    python_callable=send_email,
+    op_args=["{{ ds }}"],
+    dag=BC_dag,
+)
+
 
 # Definicion orden de tareas
-task_1 >> task_2 >> task_3
+task_1 >> task_2 >> task_3 >> task_4

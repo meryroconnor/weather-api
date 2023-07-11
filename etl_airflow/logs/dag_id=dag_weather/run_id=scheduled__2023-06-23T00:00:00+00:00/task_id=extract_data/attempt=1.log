@@ -1,0 +1,26 @@
+[2023-06-24 01:10:09,342] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: dag_weather.extract_data scheduled__2023-06-23T00:00:00+00:00 [queued]>
+[2023-06-24 01:10:09,398] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: dag_weather.extract_data scheduled__2023-06-23T00:00:00+00:00 [queued]>
+[2023-06-24 01:10:09,398] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-06-24 01:10:09,398] {taskinstance.py:1377} INFO - Starting attempt 1 of 6
+[2023-06-24 01:10:09,398] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-06-24 01:10:09,488] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): extract_data> on 2023-06-23 00:00:00+00:00
+[2023-06-24 01:10:09,500] {standard_task_runner.py:52} INFO - Started process 32271 to run task
+[2023-06-24 01:10:09,509] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'dag_weather', 'extract_data', 'scheduled__2023-06-23T00:00:00+00:00', '--job-id', '102', '--raw', '--subdir', 'DAGS_FOLDER/dag_weather.py', '--cfg-path', '/tmp/tmpm5tffog1', '--error-file', '/tmp/tmplthv6_qi']
+[2023-06-24 01:10:09,515] {standard_task_runner.py:80} INFO - Job 102: Subtask extract_data
+[2023-06-24 01:10:09,820] {task_command.py:371} INFO - Running <TaskInstance: dag_weather.extract_data scheduled__2023-06-23T00:00:00+00:00 [running]> on host db753b024971
+[2023-06-24 01:10:10,150] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=MariaRO
+AIRFLOW_CTX_DAG_ID=dag_weather
+AIRFLOW_CTX_TASK_ID=extract_data
+AIRFLOW_CTX_EXECUTION_DATE=2023-06-23T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-06-23T00:00:00+00:00
+[2023-06-24 01:10:10,152] {logging_mixin.py:115} INFO - ***************
+[2023-06-24 01:10:10,152] {logging_mixin.py:115} INFO - 2023-06-23
+[2023-06-24 01:10:27,195] {logging_mixin.py:115} INFO - HTTPConnectionPool(host='api.weatherapi.com', port=80): Max retries exceeded with url: /v1/history.json?key=a6c998288a8944c8a84204951231505&q=Buenos%20Aires&dt=2023-06-24 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85a2527a10>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+[2023-06-24 01:10:27,205] {python.py:173} INFO - Done. Returned value was: None
+[2023-06-24 01:10:27,220] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=dag_weather, task_id=extract_data, execution_date=20230623T000000, start_date=20230624T011009, end_date=20230624T011027
+[2023-06-24 01:10:27,241] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-06-24 01:10:27,297] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

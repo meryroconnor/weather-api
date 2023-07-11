@@ -1,0 +1,23 @@
+[2023-06-30 02:39:57,137] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: dag_weather.transform_data scheduled__2023-06-29T00:00:00+00:00 [queued]>
+[2023-06-30 02:39:57,151] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: dag_weather.transform_data scheduled__2023-06-29T00:00:00+00:00 [queued]>
+[2023-06-30 02:39:57,151] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-06-30 02:39:57,151] {taskinstance.py:1377} INFO - Starting attempt 1 of 6
+[2023-06-30 02:39:57,151] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-06-30 02:39:57,170] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): transform_data> on 2023-06-29 00:00:00+00:00
+[2023-06-30 02:39:57,176] {standard_task_runner.py:52} INFO - Started process 6222 to run task
+[2023-06-30 02:39:57,180] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'dag_weather', 'transform_data', 'scheduled__2023-06-29T00:00:00+00:00', '--job-id', '124', '--raw', '--subdir', 'DAGS_FOLDER/dag_weather.py', '--cfg-path', '/tmp/tmp3v4a8wjk', '--error-file', '/tmp/tmp1qfb3ifb']
+[2023-06-30 02:39:57,181] {standard_task_runner.py:80} INFO - Job 124: Subtask transform_data
+[2023-06-30 02:39:57,268] {task_command.py:371} INFO - Running <TaskInstance: dag_weather.transform_data scheduled__2023-06-29T00:00:00+00:00 [running]> on host db753b024971
+[2023-06-30 02:39:57,368] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=MariaRO
+AIRFLOW_CTX_DAG_ID=dag_weather
+AIRFLOW_CTX_TASK_ID=transform_data
+AIRFLOW_CTX_EXECUTION_DATE=2023-06-29T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-06-29T00:00:00+00:00
+[2023-06-30 02:39:57,392] {python.py:173} INFO - Done. Returned value was: None
+[2023-06-30 02:39:57,411] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=dag_weather, task_id=transform_data, execution_date=20230629T000000, start_date=20230630T023957, end_date=20230630T023957
+[2023-06-30 02:39:57,432] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-06-30 02:39:57,475] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,36 @@
+[2023-06-24 04:14:09,314] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: dag_weather.upload_data scheduled__2023-06-23T00:00:00+00:00 [queued]>
+[2023-06-24 04:14:09,349] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: dag_weather.upload_data scheduled__2023-06-23T00:00:00+00:00 [queued]>
+[2023-06-24 04:14:09,349] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-06-24 04:14:09,349] {taskinstance.py:1377} INFO - Starting attempt 2 of 6
+[2023-06-24 04:14:09,349] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-06-24 04:14:09,402] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): upload_data> on 2023-06-23 00:00:00+00:00
+[2023-06-24 04:14:09,409] {standard_task_runner.py:52} INFO - Started process 32372 to run task
+[2023-06-24 04:14:09,414] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'dag_weather', 'upload_data', 'scheduled__2023-06-23T00:00:00+00:00', '--job-id', '105', '--raw', '--subdir', 'DAGS_FOLDER/dag_weather.py', '--cfg-path', '/tmp/tmpol0aphk1', '--error-file', '/tmp/tmpnabvsfrz']
+[2023-06-24 04:14:09,416] {standard_task_runner.py:80} INFO - Job 105: Subtask upload_data
+[2023-06-24 04:14:09,529] {task_command.py:371} INFO - Running <TaskInstance: dag_weather.upload_data scheduled__2023-06-23T00:00:00+00:00 [running]> on host db753b024971
+[2023-06-24 04:14:09,687] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=MariaRO
+AIRFLOW_CTX_DAG_ID=dag_weather
+AIRFLOW_CTX_TASK_ID=upload_data
+AIRFLOW_CTX_EXECUTION_DATE=2023-06-23T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-06-23T00:00:00+00:00
+[2023-06-24 04:14:09,704] {logging_mixin.py:115} INFO - Unable to connect to Redshift.
+[2023-06-24 04:14:09,705] {logging_mixin.py:115} INFO - could not translate host name "data-engineer-cluster.cyhh5bfevlmn.us-east-1.redshift.amazonaws.com" to address: Name or service not known
+[2023-06-24 04:14:09,707] {taskinstance.py:1909} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 171, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 189, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/dag_weather.py", line 73, in upload_data
+    load_to_redshift(conn=conn_db_coder, table_name="forecast", dataframe=df)
+  File "/opt/airflow/dags/weather_pckg/redshift_utils.py", line 29, in load_to_redshift
+    cur = conn.cursor()
+AttributeError: 'NoneType' object has no attribute 'cursor'
+[2023-06-24 04:14:09,722] {taskinstance.py:1420} INFO - Marking task as UP_FOR_RETRY. dag_id=dag_weather, task_id=upload_data, execution_date=20230623T000000, start_date=20230624T041409, end_date=20230624T041409
+[2023-06-24 04:14:09,738] {standard_task_runner.py:97} ERROR - Failed to execute job 105 for task upload_data ('NoneType' object has no attribute 'cursor'; 32372)
+[2023-06-24 04:14:09,786] {local_task_job.py:156} INFO - Task exited with return code 1
+[2023-06-24 04:14:09,835] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,25 @@
+[2023-07-04 01:52:25,916] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: dag_weather.extract_data scheduled__2023-07-03T00:00:00+00:00 [queued]>
+[2023-07-04 01:52:25,965] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: dag_weather.extract_data scheduled__2023-07-03T00:00:00+00:00 [queued]>
+[2023-07-04 01:52:25,965] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-04 01:52:25,966] {taskinstance.py:1377} INFO - Starting attempt 1 of 6
+[2023-07-04 01:52:25,966] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-04 01:52:26,028] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): extract_data> on 2023-07-03 00:00:00+00:00
+[2023-07-04 01:52:26,038] {standard_task_runner.py:52} INFO - Started process 8179 to run task
+[2023-07-04 01:52:26,043] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'dag_weather', 'extract_data', 'scheduled__2023-07-03T00:00:00+00:00', '--job-id', '137', '--raw', '--subdir', 'DAGS_FOLDER/dag_weather.py', '--cfg-path', '/tmp/tmp946cl61u', '--error-file', '/tmp/tmpnfhy_ocl']
+[2023-07-04 01:52:26,045] {standard_task_runner.py:80} INFO - Job 137: Subtask extract_data
+[2023-07-04 01:52:26,303] {task_command.py:371} INFO - Running <TaskInstance: dag_weather.extract_data scheduled__2023-07-03T00:00:00+00:00 [running]> on host db753b024971
+[2023-07-04 01:52:27,022] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=MariaRO
+AIRFLOW_CTX_DAG_ID=dag_weather
+AIRFLOW_CTX_TASK_ID=extract_data
+AIRFLOW_CTX_EXECUTION_DATE=2023-07-03T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-07-03T00:00:00+00:00
+[2023-07-04 01:52:27,023] {logging_mixin.py:115} INFO - ***************
+[2023-07-04 01:52:27,024] {logging_mixin.py:115} INFO - 2023-07-03
+[2023-07-04 01:52:31,821] {python.py:173} INFO - Done. Returned value was: None
+[2023-07-04 01:52:31,859] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=dag_weather, task_id=extract_data, execution_date=20230703T000000, start_date=20230704T015225, end_date=20230704T015231
+[2023-07-04 01:52:31,921] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-07-04 01:52:32,006] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check
