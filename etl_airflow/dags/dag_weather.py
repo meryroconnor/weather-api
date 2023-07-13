@@ -34,7 +34,7 @@ BC_dag = DAG(
     dag_id='dag_weather',
     default_args=default_args,
     description='Obtiene el pronostico del dia ejecutado',
-    schedule_interval="@daily",
+    schedule_interval='0 6 * * *',
     catchup=False
 )
 
@@ -85,10 +85,6 @@ def send_email(exec_date):
     receiver_email = 'meryroconnor@hotmail.com'
 
     smtp_port, smtp_server, smtp_username, smtp_password = get_login(dag_path+"/.creds/smtp_pwd.txt")
-    #smtp_server = 'smtp.gmail.com'
-    #smtp_port = 587
-    #smtp_username = 'meryroconnor@gmail.com'
-    #smtp_password = 'qjlxghturbxvvcsp'
 
     # Create message object
     message = MIMEMultipart()
@@ -99,11 +95,53 @@ def send_email(exec_date):
     # Load weather data
     df = pd.read_csv(dag_path + f'/processed_data/{exec_date}.csv')
 
+    # Forecast variable
+    if df['rain'] == 1:
+        pronostico = '¡Hoy necesitarás Paraguas!'
+    else:
+        pronostico = 'No esperes lluvias hoy :)'
     # Create HTML content for the email body
-    html_content = '<html><body>'
-    html_content += f'<h2>Weather Data for {exec_date}</h2>'
-    html_content += df.to_html()
-    html_content += '</body></html>'
+    html_content = f'''
+        <html>
+    <body style="font-family: Arial, sans-serif; background-color: #f7f7f7; margin: 0; padding: 0;">
+      <table style="max-width: 600px; margin: 0 auto; background-color: #ffffff;" cellpadding="0" cellspacing="0">
+        <tr>
+          <td>
+            <div style="padding: 20px; background-color: #333333; color: #ffffff; text-align: center;">
+              <h1 style="margin: 0;">Informe Climático</h1>
+              <p style="margin: 5px 0 0;">Fecha: {exec_date}</p>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div style="padding: 20px;">
+              <h2 style="margin: 0;">Buenos Aires</h2>
+              <p style="margin-top: 5px;">Toda los datos que necesitas saber hoy!</p>
+            </div>
+          </td>
+        </tr>'''''
+    html_content += f'''
+        <tr>
+          <td>
+            <div style="padding: 20px;">
+              <h2 style="margin: 0;">Buenos Aires</h2>
+              <p style="margin-top: 5px;">Toda los datos que necesitas saber hoy!</p>
+            </div>
+          </td>
+        </tr
+        '''
+    html_content += '<tr><td>' + df.to_html() + '</td></tr>'
+    html_content += '''<tr>
+              <td>
+                <div style="padding: 20px; background-color: #eeeeee; text-align: center; font-size: 12px; color: #666666;">
+                  <p style="margin: 0;">© Fuente: weatherapi.com</p>
+                </div>
+              </td>
+            </tr>
+          </table>
+        </body>
+        </html>'''
 
     # Attach the HTML content to the email
     message.attach(MIMEText(html_content, 'html'))
