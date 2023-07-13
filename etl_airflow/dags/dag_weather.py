@@ -95,11 +95,6 @@ def send_email(exec_date):
     # Load weather data
     df = pd.read_csv(dag_path + f'/processed_data/{exec_date}.csv')
 
-    # Forecast variable
-    if df['rain'] == 1:
-        pronostico = '¡Hoy necesitarás Paraguas!'
-    else:
-        pronostico = 'No esperes lluvias hoy :)'
     # Create HTML content for the email body
     html_content = f'''
         <html>
@@ -121,17 +116,14 @@ def send_email(exec_date):
             </div>
           </td>
         </tr>'''''
-    html_content += f'''
-        <tr>
-          <td>
-            <div style="padding: 20px;">
-              <h2 style="margin: 0;">Buenos Aires</h2>
-              <p style="margin-top: 5px;">Toda los datos que necesitas saber hoy!</p>
-            </div>
-          </td>
-        </tr
-        '''
-    html_content += '<tr><td>' + df.to_html() + '</td></tr>'
+    # Convert DataFrame to HTML with to_html()
+    df_html = df.to_html()
+    modified_html = df_html.replace('<table', '<table style="width: 100%; border-collapse: collapse;"')
+    modified_html = modified_html.replace('<th>',
+                                          '<th style="padding: 8px; border: 1px solid #dddddd; text-align: left;">')
+    modified_html = modified_html.replace('<td>', '<td style="padding: 8px; border: 1px solid #dddddd;">')
+
+    html_content += f'<tr><td>{modified_html}</td></tr>'
     html_content += '''<tr>
               <td>
                 <div style="padding: 20px; background-color: #eeeeee; text-align: center; font-size: 12px; color: #666666;">

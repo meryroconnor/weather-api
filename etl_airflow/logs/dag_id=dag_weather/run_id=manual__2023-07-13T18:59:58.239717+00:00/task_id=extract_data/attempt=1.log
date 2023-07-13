@@ -1,0 +1,25 @@
+[2023-07-13 18:59:59,720] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: dag_weather.extract_data manual__2023-07-13T18:59:58.239717+00:00 [queued]>
+[2023-07-13 18:59:59,735] {taskinstance.py:1179} INFO - Dependencies all met for <TaskInstance: dag_weather.extract_data manual__2023-07-13T18:59:58.239717+00:00 [queued]>
+[2023-07-13 18:59:59,735] {taskinstance.py:1376} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-13 18:59:59,735] {taskinstance.py:1377} INFO - Starting attempt 1 of 6
+[2023-07-13 18:59:59,735] {taskinstance.py:1378} INFO - 
+--------------------------------------------------------------------------------
+[2023-07-13 18:59:59,753] {taskinstance.py:1397} INFO - Executing <Task(PythonOperator): extract_data> on 2023-07-13 18:59:58.239717+00:00
+[2023-07-13 18:59:59,789] {standard_task_runner.py:52} INFO - Started process 193 to run task
+[2023-07-13 18:59:59,794] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'dag_weather', 'extract_data', 'manual__2023-07-13T18:59:58.239717+00:00', '--job-id', '85', '--raw', '--subdir', 'DAGS_FOLDER/dag_weather.py', '--cfg-path', '/tmp/tmphcr15ysp', '--error-file', '/tmp/tmpl5kn0iqs']
+[2023-07-13 18:59:59,796] {standard_task_runner.py:80} INFO - Job 85: Subtask extract_data
+[2023-07-13 18:59:59,932] {task_command.py:371} INFO - Running <TaskInstance: dag_weather.extract_data manual__2023-07-13T18:59:58.239717+00:00 [running]> on host 6fc87d08a0f9
+[2023-07-13 19:00:00,102] {taskinstance.py:1591} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=MariaRO
+AIRFLOW_CTX_DAG_ID=dag_weather
+AIRFLOW_CTX_TASK_ID=extract_data
+AIRFLOW_CTX_EXECUTION_DATE=2023-07-13T18:59:58.239717+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-07-13T18:59:58.239717+00:00
+[2023-07-13 19:00:00,103] {logging_mixin.py:115} INFO - ***************
+[2023-07-13 19:00:00,103] {logging_mixin.py:115} INFO - 2023-07-13
+[2023-07-13 19:00:02,023] {python.py:173} INFO - Done. Returned value was: None
+[2023-07-13 19:00:02,038] {taskinstance.py:1420} INFO - Marking task as SUCCESS. dag_id=dag_weather, task_id=extract_data, execution_date=20230713T185958, start_date=20230713T185959, end_date=20230713T190002
+[2023-07-13 19:00:02,056] {local_task_job.py:156} INFO - Task exited with return code 0
+[2023-07-13 19:00:02,108] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check
