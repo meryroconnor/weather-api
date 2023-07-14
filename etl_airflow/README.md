@@ -20,4 +20,4 @@ Las tareas están configuradas para ejecutarse en un orden específico:
 **extract_data >> transform_data >> upload_data >> send_email**
 
 ## Ejemplo Emailing
-![img.png](img.png)
+![img.png](../img.png)
