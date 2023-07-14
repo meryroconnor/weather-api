@@ -1,4 +1,4 @@
-.env/
+.creds/
 __pycache__/
 main_test.py
 test.ipynb
