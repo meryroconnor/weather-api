@@ -4,3 +4,7 @@ main_test.py
 test.ipynb
 *.csv
 data/*
+01_extract.ipynb
+02_transform.ipynb
+03_load.ipynb
+img.png
